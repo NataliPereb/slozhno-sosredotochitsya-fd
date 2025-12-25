@@ -12,7 +12,7 @@
 
   --my-font-family: 'IBM Plex mono', sans-serif;
   --my-bg-color: #FFEEF6;
-  --my-bg-image: url(../images/cover-image-light.png);
+  --my-bg-image: url('../images/cover-image-light.png');
   --accent-color: #FF8DCB;
   --accent-color-two: #353430;
   --title-color: #FFC2E6;
