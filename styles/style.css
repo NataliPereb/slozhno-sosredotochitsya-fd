@@ -437,7 +437,7 @@
 }
 
 @media(width >= 1024px) {
-  .title-footer  {
+  .title-footer {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
@@ -455,7 +455,7 @@
   outline: none;
 }
 
-.section__card-text a:focus {
+.section__card-text a:focus-visible {
   outline: 1px solid var(--text-color);
 }
 
