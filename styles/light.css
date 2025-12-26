@@ -3,18 +3,29 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+@media (prefers-color-scheme: light) {
+  :root {
+    --my-bg-color: #FFEEF6;
+    --my-bg-image: url('/images/cover-image-light.png');
+    --accent-color: #FF8DCB;
+    --accent-color-alt: #353430;
+    --title-color: #FFC2E6;
+    --text-color: #353430;
+    --outline-hover: rgba(50, 49, 45, 0.4);
+    --decor-color: #353430;
+    --rec: none;
+  }
+}
 
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-
-  --my-font-family: 'IBM Plex mono', sans-serif;
   --my-bg-color: #FFEEF6;
   --my-bg-image: url('../images/cover-image-light.png');
   --accent-color: #FF8DCB;
-  --accent-color-two: #353430;
+  --accent-color-alt: #353430;
   --title-color: #FFC2E6;
   --text-color: #353430;
   --outline-hover: rgba(50, 49, 45, 0.4);
