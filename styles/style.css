@@ -326,11 +326,12 @@
 
 .gallery-grid__image {
   width: 100%;
-  height: auto; object-fit: cover;
+  height: auto; 
+  object-fit: cover;
 }
 
 .content-section:has(.gallery-grid) {
-  row-gap: 10px; 
+  row-gap: 10px;
 }
 
 @media(width >= 768px) {
